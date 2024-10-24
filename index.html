@@ -3,26 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <input type="search" placeholder="Enter a city..." required/>
-        <input type="submit" value="Search" />
+    <div class="weather-app">
+    <header class="search-form">
+        <input type="search" placeholder="Enter a city..." required class="search-input"/>
+        <input type="submit" value="Search" class="search-button" />
     </header>
     <main>
+        <div class="weather-app-data">
         <div>
-    <h1>
+    <h1 class="weather-app-city">
         Tehran
     </h1>
-    <p>
+    <p class="weather-app-details">
         Tuesday 15:12, broken clouds
     </br>
-        Humidity: 76%, Wind: 3.09km/h
+        Humidity: <strong>76%</strong>, Wind: <strong>3.09km/h</strong>
     </p>
     </div>
-    <div>
-    ⛅ 16°C
+    <div class="weather-container">
+    <div class="weather-icon">⛅</div> 
+    <div class="weather-temperature">16</div>
+    <div class="weather-unit">°C</div>
+    </div>
     </div>
     </main>
     <footer>
@@ -30,5 +36,6 @@
         <a href="https://github.com/Mohanna77kian/mohanna-app" target="-blank">on Github</a>,
         and website hosted <a href="https://mohanna-app.netlify.app/" target="-blank">on Netlify</a>
     </footer>
+    </div>
 </body>
 </html>
