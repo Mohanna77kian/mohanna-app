@@ -8,14 +8,20 @@
 </head>
 <body>
     <div class="weather-app">
-    <header class="search-form">
-        <input type="search" placeholder="Enter a city..." required class="search-input"/>
+    <header>
+        <form class="search-form" id="search-form">
+        <input 
+        type="search" 
+        placeholder="Enter a city..."  
+        class="search-input" 
+        id="search-input"/>
         <input type="submit" value="Search" class="search-button" />
+        </form>
     </header>
     <main>
         <div class="weather-app-data">
         <div>
-    <h1 class="weather-app-city">
+    <h1 class="weather-app-city" id="weather-app-city">
         Tehran
     </h1>
     <p class="weather-app-details">
@@ -37,5 +43,6 @@
         and website hosted <a href="https://mohanna-app.netlify.app/" target="-blank">on Netlify</a>
     </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
