@@ -18,4 +18,5 @@ async function searchSubmit(event) {
   cityElement.innerHTML = result.city;
   temp.innerHTML = result.temperature.current;
   icon.src = result.condition.icon_url;
+  icon.classList.remove("aaa");
 }
