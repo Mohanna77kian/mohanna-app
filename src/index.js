@@ -48,24 +48,3 @@ function formatDay(date) {
 }
 
 
-// let searchForm = document.querySelector("#search-form");
-// searchForm.addEventListener("submit", submitSearch);
-
-// function submitSearch(event) {
-//   event.preventDefault();
-//   let searchInput = document.querySelector("#search-input");
-//   searchCity(searchInput.value);
-// }
-
-// function searchCity(city) {
-//   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=6bdb310086a38f79b2oc40bdd04tdc66`;
-//   axios.get(apiUrl).then(updateWeather);
-// }
-
-// function updateWeather(response) {
-//   let temp = document.querySelector("#temperature");
-//   let temperature = response.data.temperature.current;
-//   temp.innerHTML = Math.round(temperature);
-//   let cityElement = document.querySelector("#weather-app-city");
-//   cityElement.innerHTML = response.data.city;
-// }
