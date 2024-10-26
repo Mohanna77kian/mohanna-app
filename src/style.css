@@ -7,7 +7,7 @@ body {
   margin: 40px auto;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #f3f1f9;
+  box-shadow: 12px 12px 10px 10px #F5F3FB;
 }
 .search-input {
   background: #f9f7fe;
@@ -49,17 +49,18 @@ header {
   color: #f65282;
 }
 .weather-temperature {
-  font-size: 65px;
+  font-size: 70px;
   font-weight: bold;
   line-height: 120px;
 }
 .weather-unit {
-  font-size: 30px;
+  font-size: 27px;
   margin-top: 30px;
 }
 .weather-icon {
-  width: 120px;
-  height: 120px;
+  width: 88px;
+  height: 88px;
+  margin-top: 20px;
 
 }
 .aaa {
