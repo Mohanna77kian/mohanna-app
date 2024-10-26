@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -25,14 +26,14 @@
         Tehran
     </h1>
     <p class="weather-app-details">
-        Tuesday 15:12, broken clouds
+        <span id="time"></span>, <span id="description"></span>
     </br>
-        Humidity: <strong>76%</strong>, Wind: <strong>3.09km/h</strong>
+        Humidity: <strong id="humidity"></strong>, Wind: <strong id="speed"></strong>
     </p>
     </div>
     <div class="weather-container">
     <img src=""  class="weather-icon aaa"> 
-    <div class="weather-temperature">16</div>
+    <div class="weather-temperature" id="temperature">16</div>
     <div class="weather-unit">°C</div>
     </div>
     </div>
