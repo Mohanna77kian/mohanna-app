@@ -51,10 +51,10 @@ header {
   justify-content: space-between;
 }
 .weather-app-city {
-  font-size: 38px;
+  font-size: 36px;
 }
 .weather-app-details {
-  font-size: 16px;
+  font-size: 15px;
   color: #6e6c74;
   margin-bottom: 50px;
 }
@@ -62,18 +62,18 @@ header {
   color: #f65282;
 }
 .weather-temperature {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bolder;
   line-height: 120px;
 }
 .weather-unit {
-  font-size: 20px;
-  margin-top: 27px;
+  font-size: 18px;
+  margin-top: 34px;
   margin-left: 5px;
 }
 .weather-icon {
-  width: 88px;
-  height: 88px;
+  width: 80px;
+  height: 80px;
   margin-top: 20px;
 }
 .aaa {
